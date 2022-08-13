@@ -1,0 +1,282 @@
+/* large Layout: 1280px. */
+@media only screen and (min-width: 1130px) { 
+    .container {
+        width: 1170px;
+    }
+    
+}
+
+/* Medium Layout: 1000px. */
+@media only screen and (min-width: 1000px) and (max-width: 1129px) { 
+    
+    .container {
+        width: 970px;
+    }
+    .section_title {
+        padding: 49px 10px;
+    }
+    .section_title h2 {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .section_title h2::after {
+        top: -15px;
+        height: 67px;
+    }
+    .m_bottom {
+        margin-bottom: 249px;
+    }
+    .a_b_text > h1 {
+        font-size: 37px;
+        margin-bottom: 45px;
+    }
+    .b_i_text > h4 {
+        font-size: 18px;
+        padding: 17px 10px;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 767px) and (max-width: 999px) { 
+    
+    .container {
+        width: 730px;
+        padding: 0px;
+    }
+    .mainmenu ul.nav li > a, .is-sticky .mainmenu ul.nav li a {
+        padding: 48px 14px;
+    }
+    .section_title {
+        padding: 49px 10px;
+    }
+    .section_title h2 {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .section_title h2::after {
+        top: -15px;
+        height: 67px;
+    }
+    .team_list, .services_list, .blog_list, .contact_list {
+        padding: 60px 0px 70px;
+    }
+    .s_a_left, .s_ap_left, .s_b_left {
+        margin-bottom: 40px;
+    }
+    .left_blog, .left_us {
+        margin-bottom: 50px;
+    }
+    .about_right, .s_ap_left, .s_b_left {
+        text-align: center;
+    }
+    .single_services {
+        padding: 0 50px 50px;
+    }
+    .s_b_left, .s_b_right, .left_blog, .right_blog, .left_us, .right_us {
+        width: 100%;
+    }
+    .s_b_right {
+        margin-top: 30px;
+    }
+    .s_b_left .yellow_cercel {
+        margin: 0 auto;
+    }
+    .ca_s_img {
+        height: 183px;
+    }
+    .singler_blog {
+        margin: 0 auto;
+        width: 555px;                    
+    }
+    
+}
+
+/* wied Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+    
+    .container {
+        width: 450px;
+        padding: 0px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .logo {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .mainmenu ul.nav li > a, .is-sticky .mainmenu ul.nav li a {
+        font-size: 15px;
+        padding: 20px 8px;
+    }
+    .welcome_text .item h1 {
+        font-size: 40px;
+    }
+    .section_title {
+        padding: 49px 10px;
+        text-align: center;
+    }
+    .section_title h2 {
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .section_title h2::after {
+        bottom: -13px;
+        height: 4px;
+        left: 50%;
+        margin-left: -25px;
+        width: 50px;
+    }
+    .welcome_text .item h1 span {
+        font-size: 30px;
+    }
+    .m_bottom {
+        margin-bottom: 50px;
+    }
+    .team_list, .services_list, .blog_list, .contact_list {
+        padding: 60px 0px 70px;
+    }
+    .s_a_left, .s_ap_left, .s_b_left, .single_count, .pricing_list, .contact_form, .footer_area .pull-left {
+        margin-bottom: 40px;
+    }
+    .s_b_left, .s_b_right, .left_blog, .right_blog, .left_us, .right_us {
+        width: 100%;
+    }
+    .s_a_left .yellow_cercel {
+        margin-bottom: 60px;
+    }
+    .single_team, .single_services {
+        padding: 30px 40px;
+    }
+    .pricing_list .active .p_bottom {
+        padding: 25px 13px 45px;
+    }
+    .singler_blog {
+        width: 100%;
+    }
+    .b_i_text > h4 {
+        font-size: 18px;
+        padding: 17px 10px;
+    }
+    .footer_area, .f_social_link, .mainmenu, .s_b_left {
+        text-align: center;
+    }
+    .left_blog{
+        margin-bottom: 50px;
+    }
+    .s_b_left .yellow_cercel {
+        margin: 0 auto;
+    }
+    
+}
+
+/* Mobile Layout: 300px. */
+@media only screen and (min-width: 280px) and (max-width: 479px) { 
+
+    .container {
+        width: 250px;
+        padding: 0px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .a_b_text > h1 {
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    .a_b_text > h1::after {
+        bottom: -20px;
+    }
+    .logo {       
+        text-align: center;
+    }
+    .mainmenu ul.nav li > a, .is-sticky .mainmenu ul.nav li a {
+        font-size: 15px;
+        padding: 10px 8px;
+    }
+    .welcome_text .item h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .welcome_text .item h1 span {
+        font-size: 25px;
+    }
+    .section_title {
+        padding: 49px 10px;
+        text-align: center;
+    }
+    .section_title h2 {
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .section_title h2::after {
+        bottom: -13px;
+        height: 4px;
+        left: 50%;
+        margin-left: -25px;
+        width: 50px;
+    }
+    .single_count .yellow_cercel {
+        height: 130px;
+        width: 130px;
+    }
+    
+    .overlay_black {
+        padding: 120px 0px 160px;
+    }
+    .m_bottom {
+        margin-bottom: 50px;
+    }
+    .team_list, .blog_list, .contact_list, .single_about {
+        padding: 40px 0px 50px;
+    }
+    .s_a_left, .s_ap_left, .s_b_left, .single_count, .pricing_list, .contact_form, .footer_area .pull-left {
+        margin-bottom: 30px;
+    }
+    .s_b_left, .s_b_right, .left_blog, .right_blog, .left_us, .singler_blog, .right_us, .singler_pricing {
+        width: 100%;
+    }
+    .s_a_left .yellow_cercel {
+        float: none;
+    }
+    .single_team, .single_services {
+        padding: 15px 0px;
+    }
+    .pricing_list .active .p_bottom {
+        padding: 25px 13px 45px;
+    }
+    .pricing_list {
+        border: 0px;
+    }
+    .singler_pricing{
+        border: 1px solid #ddd;
+    }
+    .services_list, .blog_list{
+        padding: 50px 0px 65px;
+    }
+    .b_i_text > h4 {
+        font-size: 10px;
+        padding: 15px 4px;
+    }
+    .s_a_left, .footer_area, .f_social_link, .mainmenu, .s_b_left {
+        text-align: center;
+    }
+    .left_blog{
+        margin-bottom: 50px;
+    }
+    .s_b_left .yellow_cercel, .s_a_left .yellow_cercel {
+        margin: 0 auto 15px;
+    }
+    .bolg_text address {
+        margin: 0px 20px 10px 0px;
+    }
+    #slider_carousel .owl-pagination .owl-page span {
+        height: 12px;
+        width: 4px;
+    }
+
+}
